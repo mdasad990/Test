@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Form 1 practice</title>
+		<link rel="stylesheet" href="Form 1.css">
+	</head>
+		<body>
+			<h3>Personal Details</h3><br>
+			<form>
+				<label for="Name">Name:</label>
+				<input type="text" id="Name" name="Name"><br><br>
+				
+				<label for="Password">Password:</label>
+				<input type="text" id="Password" name="Password"><br><br>
+				
+				<label for="E-mail id:">E-mail id:</label>
+				<input type="text" id="E-mail id" name="E-mail id"><br><br>
+				
+				<label>Gender:</label>
+				<input type="radio" id="male" name="gender" value="male">
+				<label for="male">Male</label>
+				<input type="radio" id="female" name="gender" value="female">
+				<label for="female">Female</label><br><br/>
+				
+				<label for="contact">Contact:</label>
+				<input type="contact" id="contact" name="contact" />
+				
+				<h3>Educational Qualification</h3>
+				<label for="Degree">Degree:</label>
+				<select>
+					<option value="--select group--">--select group--</option>
+					<option value="S.S.C">S.S.C</option>
+					<option value="H.S.C">H.S.C</option>
+					<option value="HONOURS">HONOURS</option>
+					<option value="MASTERS">MASTERS</option>
+				</select><br /><br />
+				
+				<label for="Engineering:">Engineering:</label>
+				<select name="group" id="group">
+					<option value="--select group--">--select group--</option>
+					<option value="CIVIL">CIVIL</option>
+					<option value="C.Sc">C.Sc</option>
+					<option value="E.E.E">E.E.E</option>
+					<option value="A.I.D.T">A.I.D.T</option>
+					<option value="ELECTRICAL">ELECTRICAL</option>
+				</select><br /><br />
+				
+				<label for="Hobbies">Hobbies:</label>
+				<input type="checkbox"/>
+				<label for="Chess">Chees</label>
+				<input type="checkbox"/>
+				<label for="Chess">Reading Book</label><br />
+				
+				<h3>Address</h3>
+				<address>
+					<textarea name="text" id="text" cols="20" rows="3"></textarea>
+				</address>
+				
+				<p>attach resume <input type="file" name="user_file"/></p>
+				
+				<button id="submit"><b>SUBMIT</b></button>
+			</form>
+		</body>
+</html>
