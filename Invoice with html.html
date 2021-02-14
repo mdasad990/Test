@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="css.css">
+		<title>Invoice table with html</title>
+	</head>
+	<body>
+		<table border="1" style="border-collapse: collapse;">
+			<colgroup>
+				<col style="background-color:yellow">
+				<col>
+				<col style="background-color:green">
+				<col>
+				<col style="background-color:yellow">
+			</colgroup>
+			<thead style="color:red">
+				<th>Item No</th>
+				<th>Description</th>
+				<th>Qty</th>
+				<th>Unit Price</th>
+				<th>Amount</th>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Item No 1</td>
+					<td>some details</td>
+					<td>100</td>
+					<td>10</td>
+					<td>1000</td>
+				</tr>
+				<tr>
+					<td>Item No 1</td>
+					<td>some details</td>
+					<td>200</td>
+					<td>10</td>
+					<td>2000</td>
+				</tr><tr>
+					<td>Item No 1</td>
+					<td>some details</td>
+					<td>300</td>
+					<td>10</td>
+					<td>3000</td>
+				</tr>
+				<tr>
+					<td colspan="3" rowspan="5">
+						Payeer: My Self<br>
+						Company: Self Company<br>
+						Bank Name: DBBL<br>
+						Phone: 000-000-0000<br>
+						Clearence: Paid<br>
+					</td>
+					<td>Total</td>
+					<td style="color:red">6000</td>
+				</tr>
+				<tr>
+					<td>State Tax</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>Federal Tax</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>Shipping</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>Grand Total</td>
+					<td></td>
+				</tr>
+			</tbody>
