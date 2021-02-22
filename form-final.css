@@ -1,0 +1,25 @@
+body{
+    background-color: brown;
+}
+h2{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+    color:white;
+}
+p{
+    padding-bottom: 20px;
+    text-align: center;
+    color:whitesmoke;
+}
+.nametype{
+    background-color: rgb(58, 56, 56);
+    padding-left: 400px;
+    padding-right: 400px;
+}
+.bsize{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left:412px;
+    padding-right: 412px;
+}
